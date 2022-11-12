@@ -1,0 +1,73 @@
+body{
+    background-color: gray;
+margin: 0; 
+padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:black;
+    
+}
+.navbar ul{
+    overflow: auto;
+    position: sticky;
+
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    color: azure;
+    margin: 20px;
+    padding: 2px 2px;
+    font-size: 20px;
+    
+}
+
+h2{
+    text-decoration:dotted;
+    font-size: 50px;
+    font-style: bold;
+    font-style: italic;
+    margin-left: 10px;
+    color: rgb(203, 243, 164);
+}
+p{
+    margin-left: 10px;
+   text-transform: none;
+   margin-right: 600px;
+}
+img{
+    float:right;
+    border-radius: 20%;
+    height: 600px;
+    width: 600px;
+  
+}
+h1{
+    text-decoration: underline;
+    color: rgb(208, 238, 180);
+}
+.navbar li:hover{
+    background: grey;
+}
+.companyName h1{
+position: absolute;
+margin-top: 5px;
+margin-left: 10px;
+
+}
+button{
+    background: black;
+    height: 40px;
+    width: 140px;
+    color: white;
+    margin-left: 20px;
+}
+button:hover{
+    background: rgb(233, 159, 159);
+}
